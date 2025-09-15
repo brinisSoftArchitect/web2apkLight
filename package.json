@@ -1,0 +1,19 @@
+{
+  "name": "brimind-app-builder",
+  "version": "1.0.0",
+  "description": "Build APK/AAB from web URL using Bubblewrap",
+  "main": "build-app.js",
+  "scripts": {
+    "build": "node build-app.js",
+    "start": "node build-app.js",
+    "init": "bubblewrap init --manifest https://ai.btimind.pro/manifest.json",
+    "build-apk": "bubblewrap build",
+    "build-aab": "bubblewrap build --skipSigning"
+  },
+  "type": "module",
+  "dependencies": {
+    "@bubblewrap/cli": "^1.19.5",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.12"
+  }
+}

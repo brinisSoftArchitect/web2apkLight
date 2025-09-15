@@ -1,0 +1,38 @@
+{
+  "packageId": "ai.brimind.pro",
+  "host": "ai.btimind.pro",
+  "name": "Brimind Chat",
+  "launcherName": "Brimind Chat",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#1976d2",
+  "backgroundColor": "#ffffff",
+  "startUrl": "https://ai.btimind.pro",
+  "iconUrl": "https://ai.btimind.pro/icon-512.png",
+  "maskableIconUrl": "https://ai.btimind.pro/icon-512-maskable.png",
+  "monochromeIconUrl": "https://ai.btimind.pro/icon-512-monochrome.png",
+  "includeNotifications": true,
+  "enableNotifications": true,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://ai.btimind.pro/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "appsFlyer": false,
+    "firstRunFlag": false,
+    "locationDelegation": false,
+    "playBilling": false
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "minSdkVersion": 19,
+  "targetSdkVersion": 33,
+  "compileSdkVersion": 33
+}
