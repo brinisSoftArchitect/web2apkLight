@@ -11,7 +11,7 @@ This project builds an Android APK/AAB for Brimind Chat using Bubblewrap (Truste
 ## Configuration
 - **App Name**: Brimind Chat
 - **Package ID**: ai.brimind.pro
-- **Web URL**: https://ai.btimind.pro
+- **Web URL**: https://ai.brimind.pro
 - **Build Type**: APK (configurable to AAB)
 
 ## Quick Start
